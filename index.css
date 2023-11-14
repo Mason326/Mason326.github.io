@@ -1,0 +1,88 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0; 
+    /* padding -- Внутренний отступ */
+    margin: 0;  
+    /* margin -- Внешние отступы  */
+}
+.header{
+    width: 100%;
+    color: white;
+    padding: 20px;
+    background: rgb(219, 132, 219);
+    box-sizing:content-box;
+}
+.menu-item{
+    list-style: none;
+}
+.menu-link{
+    color: aqua;
+    text-decoration: dotted;
+}
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.menu-link{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* BANNER */
+.banner-title, .banner-description{
+    text-align: center;
+    color: white;
+}
+.banner-title{font-size: 40px;}
+.banner-section{
+    padding: 100px 0;
+    background: url(img/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.cards-section{
+    padding: 50px 0px;
+}
+.cards-title, .cards-description{
+    color: #151c39;
+    text-align: center;
+}
+.card{
+    padding: 25px;
+    margin-top: 25px;
+    width: 25%;
+    background: white;
+    box-shadow: 45px 2px 50px 0px #9e90ff;
+    text-align: center;
+}
+.card{
+    display: inline-block;
+    width: 25%;
+    margin: 0px 20px;
+    margin-top: 25px;
+}
+.card-link{
+    text-decoration: none;
+    color: white;
+}
+.card-button{
+    text-align: center;
+    background: #151c39;
+    padding: 10px 70px;
+    border-radius: 10px;
+}
+.card-button{
+    cursor: pointer;
+    margin-top: 10px;
+}
+.footer{
+    background-position-x: left;
+    background: url(img/footer-bg.jpg);
+    background-size: cover;
+    color:white;
+}
+.card:hover{
+    box-shadow: 90px 10px 70px 0px #9e90ff;
+}
